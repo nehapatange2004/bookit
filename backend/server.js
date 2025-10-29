@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
-app.use(cors({ origin: "http://localhost:8080" }));
+app.use(cors({ origin: ["http://localhost:8080", "https://bookithighway.netlify.app"] }));
 app.use("/experiences", experiencesRoutes);
 app.use("/bookings", bookingRoutes);
 app.use("/promo", PromoRoutes);
