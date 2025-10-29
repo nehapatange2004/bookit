@@ -18,7 +18,9 @@ Highway Delite is a full-stack web application for booking travel experiences an
 - Bun package manager
 
 ## Setup Instructions
-
+```bash
+git clone https://github.com/nehapatange2004/bookit.git
+```
 ### Backend Setup
 ```bash
 # Navigate to backend directory
@@ -146,3 +148,4 @@ project/
 - Backend is deployed on Render
 
 - Frontend is deployed on Netlify
+
